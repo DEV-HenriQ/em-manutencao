@@ -55,7 +55,7 @@
    animation: piscar 1s 3s cubic-bezier(0.215, 0.610, 0.355, 1) infinite;
 }
 
-#cair
+/* #cair
 {
    animation: cair 3s forwards;
-}
+} */
