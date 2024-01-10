@@ -1,0 +1,8 @@
+@keyframes engineKeyframe
+{
+   0% {transform: rotate(0deg) translateY(0px); transform-origin: right;}
+   25% {transform: rotate(90deg) translateY(10px); transform-origin: bottom;}
+   50% {transform: rotate(180deg) translateY(20px); transform-origin: top;}
+   75% {transform: rotate(270deg) translateY(10px); transform-origin: left;}
+   100% {transform: rotate(360deg) translateY(0px); transform-origin: center;}
+}

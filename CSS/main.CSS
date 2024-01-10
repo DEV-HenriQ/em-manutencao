@@ -18,6 +18,12 @@
    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
    color: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
    font-family: 'capture';
+   text-align: center;
+}
+
+.teste > span
+{
+   margin: 2rem;
 }
 
 .gradient {
@@ -34,4 +40,11 @@
    /* Cor que contraste com o degradê, caso o navegador não suporte `background-clip: text` */
    color: black;
    
- }
+}
+
+#gear
+{
+   width: 50px;
+   height: 50px;
+   animation: engineKeyframe 1s alternate-reverse infinite linear;
+}
