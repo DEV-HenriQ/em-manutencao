@@ -1,8 +1,29 @@
 @keyframes engineKeyframe
 {
-   0% {transform: rotate(0deg) translateY(0px); transform-origin: right;}
-   25% {transform: rotate(90deg) translateY(10px); transform-origin: bottom;}
-   50% {transform: rotate(180deg) translateY(20px); transform-origin: top;}
-   75% {transform: rotate(270deg) translateY(10px); transform-origin: left;}
-   100% {transform: rotate(360deg) translateY(0px); transform-origin: center;}
+   0% {transform: rotate(0deg) translateY(0px);}
+   25% {transform: rotate(90deg) translateY(10px);}
+   50% {transform: rotate(180deg) translateY(20px);}
+   75% {transform: rotate(270deg) translateY(10px);}
+   100% {transform: rotate(360deg) translateY(0px);}
+}
+
+@keyframes piscar
+{
+   0% {opacity: 0;}
+   10% {opacity: .3;}
+   20% {opacity: .7;}
+   30% {opacity: 1;}
+   40% {opacity: .5;}
+   50% {opacity: 1;}
+   60% {opacity: 0;}
+   70% {opacity: .4;}
+   80% {opacity: 0;}
+   90% {opacity: .5;}
+   100% {opacity: 1;}
+}
+
+@keyframes cair /*fazer cair antes de piscar*/
+{
+   0% {transform: translateY(-200px);}
+   100% {transform: translateY(0px);}
 }

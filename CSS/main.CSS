@@ -26,7 +26,7 @@
    margin: 2rem;
 }
 
-.gradient {
+.gradient, .manutencao {
    /* Primeiro passo: definir um degradê como fundo */
    background-image: linear-gradient( 111.4deg,  rgba(238,113,113,1) 1%, rgba(246,215,148,1) 58% );
    
@@ -46,5 +46,16 @@
 {
    width: 50px;
    height: 50px;
-   animation: engineKeyframe 1s alternate-reverse infinite linear;
+   animation: engineKeyframe 1s infinite linear;
+}
+
+.manutencao
+{
+   opacity: 1;
+   animation: piscar 1s 3s cubic-bezier(0.215, 0.610, 0.355, 1) infinite;
+}
+
+#cair
+{
+   animation: cair 3s forwards;
 }
