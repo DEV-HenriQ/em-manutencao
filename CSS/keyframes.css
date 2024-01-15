@@ -1,10 +1,10 @@
-@keyframes engineKeyframe
+@keyframes engineRotate
 {
-   0% {transform: rotate(0deg) translateY(0px);}
-   25% {transform: rotate(90deg) translateY(10px);}
-   50% {transform: rotate(180deg) translateY(20px);}
-   75% {transform: rotate(270deg) translateY(10px);}
-   100% {transform: rotate(360deg) translateY(0px);}
+   0% {transform: rotate(0deg)}
+   25% {transform: rotate(90deg)}
+   50% {transform: rotate(180deg)}
+   75% {transform: rotate(270deg)}
+   100% {transform: rotate(360deg)}
 }
 
 @keyframes piscar
@@ -22,8 +22,8 @@
    100% {opacity: 1;}
 }
 
-/* @keyframes cair //fazer cair antes de piscar
+@keyframes cair 
 {
-   0% {transform: translateY(-200px);}
+   0% {transform: translateY(-200px); position: absolute;}
    100% {transform: translateY(0px);}
-} */
+}
