@@ -60,5 +60,5 @@
 .message
 {
    opacity: 0;
-   animation: cair 1s forwards, aparecer 2s 3s;
+   animation: cair 1s forwards, aparecer 2s 3s forwards;
 }
