@@ -5,12 +5,11 @@
    src: url(../FONTS/Capture\ it.ttf);
 }
 
-.teste
+body
 {
-   display: flex;
-   flex-direction: column;
    height: 100vh;
    width: 100vw;
+   display: flex;
    justify-content: center;
    align-items: center;
    font-size: 4rem;
@@ -20,6 +19,16 @@
    color: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
    font-family: 'capture';
    text-align: center;
+}
+
+.teste
+{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   animation: cair 2s forwards;
+   margin: 1rem;
 }
 
 .teste > span
@@ -54,11 +63,11 @@
 .manutencao
 {
    opacity: 1;
-   animation: piscar 1s 2s cubic-bezier(0.215, 0.610, 0.355, 1) infinite, cair 2s forwards;
+   animation: piscar 1s 2s cubic-bezier(0.215, 0.610, 0.355, 1) infinite;
 }
 
 .message
 {
    opacity: 0;
-   animation: cair 1s forwards, aparecer 2s 3s forwards;
+   animation: aparecer 2s 3s forwards;
 }
