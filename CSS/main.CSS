@@ -57,7 +57,7 @@ body
    opacity: 1;
    width: 50px;
    height: 50px;
-   animation: engineRotate 3s 2s infinite linear, piscar 1s 2s cubic-bezier(0.215, 0.610, 0.355, 1) infinite;
+   animation: engineRotate 3s 2s infinite linear;
 }
 
 .manutencao
