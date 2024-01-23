@@ -10,7 +10,8 @@ body
    height: 100vh;
    width: 100vw;
    display: flex;
-   justify-content: center;
+   flex-direction: column;
+   justify-content: space-between;
    align-items: center;
    font-size: 4rem;
    font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -21,14 +22,35 @@ body
    text-align: center;
 }
 
+header
+{
+   display: flex;
+   align-items: center;
+   font-family: 'Courier New', Courier, monospace;
+   font-size: 1.7rem;
+   width: 100vw;
+   justify-content: space-between;
+   padding: 2rem;
+   height: 70px;
+   background-color: #80D0C7;
+   box-shadow: 2px 2px 4px #F7CE68;
+}
+
+header figure img
+{
+   width: 50px;
+}
+
 .teste
 {
    display: flex;
    flex-direction: column;
    justify-content: center;
    align-items: center;
-   animation: cair 2s forwards;
+   animation: cair 2s 1s forwards;
    margin: 1rem;
+   opacity: 0;
+   height: calc(100vh - 70px);
 }
 
 .teste > span
@@ -57,17 +79,22 @@ body
    opacity: 1;
    width: 50px;
    height: 50px;
-   animation: engineRotate 3s 2s infinite linear;
+   animation: engineRotate 3s 3s infinite linear;
 }
 
 .manutencao
 {
    opacity: 1;
-   animation: piscar 1s 2s cubic-bezier(0.215, 0.610, 0.355, 1) infinite;
+   animation: piscar 1s 3s cubic-bezier(0.215, 0.610, 0.355, 1) infinite;
 }
 
 .message
 {
    opacity: 0;
-   animation: aparecer 2s 3s forwards;
+   animation: aparecer 2s 4s forwards;
+}
+
+#cara-triste
+{
+   width: 200px;
 }

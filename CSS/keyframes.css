@@ -24,8 +24,8 @@
 
 @keyframes cair 
 {
-   0% {transform: translateY(-200px); position: absolute;}
-   100% {transform: translateY(0px); position: relative;}
+   0% {transform: translateY(-200px); position: absolute; opacity: 1;}
+   100% {transform: translateY(0px); position: relative; opacity: 1;}
 }
 
 @keyframes aparecer
